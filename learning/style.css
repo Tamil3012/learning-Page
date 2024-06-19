@@ -1,0 +1,59 @@
+.btn{
+    color: white !important;
+    background-color:  red !important;
+    
+}
+
+.therd{
+    border: 2px dashed yellowgreen;
+}
+.co{
+    border: 2px solid red !important;
+}
+.fi-ro{
+    border: 2px solid white;
+
+}
+.fit{
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover;
+    border: 4px solid white;
+}
+.dr-detiles{
+    text-align: justify !important;
+    border: 0px 10px 0px 10px !important;
+}
+
+@media (max-width:320px ){
+    .six p{
+        /* background-color: aqua; */
+        font-size: 20px !important;
+    }
+    .four p{
+        font-size: 17px !important;
+    }
+    .question{
+        font-size: 18px !important;
+    }
+    .answer{
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width:320px ){
+    .btn-con{
+        font-size: 25px !important; 
+    }
+    .btn-con2{
+        font-size: 15px !important;
+    }
+}
+@media (max-width:312px ){
+    .btn-con{
+        font-size: 20px !important; 
+    }
+    .btn-con2{
+        font-size: 13px !important;
+    }
+}
